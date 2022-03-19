@@ -85,7 +85,7 @@ function loadWidget(config) {
 			document.getElementById("waifu").style.bottom = "-500px";
 			setTimeout(() => {
 				document.getElementById("waifu").style.display = "none";
-				document.getElementById("waifu-toggle").classList.add("waifu-toggle-active");
+				//document.getElementById("waifu-toggle").classList.add("waifu-toggle-active");
 			}, 3000);
 		});
 		const devtools = () => {};
@@ -262,6 +262,7 @@ function initWidget(config, apiPath) {
 			apiPath
 		};
 	}
+	/*
 	document.body.insertAdjacentHTML("beforeend", `<div id="waifu-toggle">
 			<span>看板娘</span>
 		</div>`);
@@ -287,4 +288,5 @@ function initWidget(config, apiPath) {
 	} else {
 		loadWidget(config);
 	}
+	*/
 }
